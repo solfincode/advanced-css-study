@@ -1,0 +1,17 @@
+.btn {
+  width: 300px;
+  height: 50px;
+  padding: 20px;
+  border: none;
+  background-color: aquamarine;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(7, 151, 235);
+  border-radius: 10px;
+  width: 500px;
+  transform: translate(100px);
+}
