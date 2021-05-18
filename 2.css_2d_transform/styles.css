@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+  width: 300px;
+  align-content: flex-start;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: teal;
+  margin: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.scale,
+.translate,
+.rotate,
+.skew,
+.origin {
+  transition: all 0.2s ease-in-out;
+}
+.origin {
+  /* transform-origin: right; */
+  transform-origin: 30% 80%;
+  transform-orign: 75px 75px; /*center */
+  /* top bottom center right left */
+  /* bottom right top left */
+  /* top right top left */
+}
+.scale:hover {
+  transform: scale(1.5);
+}
+
+.translate:hover {
+  transform: translate(100px);
+}
+
+.rotate:hover {
+  transform: rotate(360deg);
+}
+
+.skew:hover {
+  transform: skew(200deg);
+}
+
+.origin:hover {
+  transform: rotate(45deg);
+}
