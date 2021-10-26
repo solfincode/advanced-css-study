@@ -1,0 +1,25 @@
+body {
+  perspective: 100px;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+.rect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  width: 300px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+img {
+  transition: transform 1s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
